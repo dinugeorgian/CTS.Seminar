@@ -18,8 +18,10 @@ public class Program {
 		
 		try {
 			listaAplicanti = citesteAplicanti(aplicantReader);
+			Proiect proiect = new Proiect(80);
 			for(Aplicant angajat:listaAplicanti) {
 				System.out.println(angajat.toString());
+				Angajat.afiseazaStatus(proiect);
 				System.out.println(angajat.getSumaFinantata());
 			}
 				
