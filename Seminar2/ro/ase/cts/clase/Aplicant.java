@@ -9,6 +9,7 @@ public abstract class Aplicant{
 	protected String[] denumireProiect;
 	
 	
+	
 	public String getNume() {
 		return nume;
 	}
@@ -64,5 +65,8 @@ public abstract class Aplicant{
 		this.denumireProiect=vect;
 		
 	}
+	
+	
+	public abstract float getSumaFinantata();
 
 }
