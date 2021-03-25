@@ -1,4 +1,4 @@
-package ro.ase.cts.main;
+package ro.ase.cts.simplefactory.main;
 
 import ro.ase.cts.Body;
 import ro.ase.cts.Categorie;

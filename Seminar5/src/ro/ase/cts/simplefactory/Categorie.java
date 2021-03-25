@@ -1,4 +1,4 @@
-package ro.ase.cts;
+package ro.ase.cts.simplefactory;
 
 public abstract class Categorie {
 	
@@ -11,6 +11,11 @@ public abstract class Categorie {
 
 	public float getPretDeBaza() {
 		return pretDeBaza;
+	}
+
+	@Override
+	public String toString() {
+		return "Categorie [pretDeBaza=" + pretDeBaza + "]";
 	}
 	 
 	 

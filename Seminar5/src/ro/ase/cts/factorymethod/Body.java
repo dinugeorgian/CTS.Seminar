@@ -1,4 +1,4 @@
-package ro.ase.cts;
+package ro.ase.cts.factorymethod;
 
 public class Body extends Categorie {
 	public Body(float pretDeBaza) {
