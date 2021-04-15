@@ -1,5 +1,7 @@
 package ro.ase.cts.proxy.clase;
 
-public class IRezervare {
+public interface IRezervare {
+	void anuntaRezervare();
+	
 
 }
